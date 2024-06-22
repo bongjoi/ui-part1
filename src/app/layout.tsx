@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Gnb from "./gnb";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ko">
       <body>
+        <Gnb />
         <main>{children}</main>
       </body>
     </html>
