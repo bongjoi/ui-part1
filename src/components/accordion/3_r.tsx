@@ -32,7 +32,9 @@ const Accordion3 = () => {
 
   return (
     <>
-      <h3>#3. React</h3>
+      <h3>
+        #3. React<sub>css animation (transition)</sub>
+      </h3>
       <ul className={cx("container")}>
         {data.map((d) => (
           <AccordionItem
